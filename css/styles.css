@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #222;
+  font-size: 1rem;
+}
+
+.menu {
+  padding: 1rem 2rem 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(255, 117, 24);
+}
+
+.menu a:hover {
+  transform: translateY(-3px);
+  color: white;
+  transition: all 0.4s;
+}
+.links > ul,
+li {
+  display: flex;
+  padding: 0 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.principal {
+  color: white;
+  padding-top: 3rem;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.left-content {
+  text-align: right;
+  padding-right: 50px;
+}
+.left-content p {
+  line-height: 1.5rem;
+}
+.left-images img {
+  padding: 0.1rem;
+}
+.left-images a img:hover {
+  transform: translateY(-3px);
+  transition: all 0.4s;
+}
+#line{
+  height: 25px;
+  max-width: 100px;
+}
+
+.principal h1 {
+  color: white;
+  font-size: 3.7rem;
+}
+.principal span {
+  color:rgb(255, 117, 24);
+}
+
+.images img:first-child {
+  max-width: 350px;
+  position: absolute;
+}
+.images img:last-child {
+  max-height: 400px;
+  position: relative;
+  padding-left: 3rem;
+  border-radius: 50%;
+  filter: grayscale(100%) drop-shadow(0 0 1rem black);
+}
+
+.content {
+  background-color: #111;
+  color: white;
+  padding: 2rem 20%;
+  margin: 0 auto;
+  display: block;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+hr {
+  width: 130px;
+  border: 2px solid orangered;
+  display: flex;
+  height: 0;
+  border-radius: 2px;
+  margin-bottom: 0.5rem;
+}
+.titulo{
+  padding-bottom: 0.5rem;
+}
+.education{
+  background-color: #111;
+
+}.content span{
+  color: orangered; 
+
+}
+
+
+/* MEDIA QUERRY */
+
+@media (max-width: 800px) {
+   .principal {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+  .left-content {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 3rem;
+  }
+  .right-content {
+    margin-left: -50px;
+  }
+  .images {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #line {
+    display: none;
+  }
+  .images img:first-child {
+    max-width: 300px;
+  }
+  .images img:last-child {
+    max-height: 350px;
+  }
+  .content{
+    padding: 5% 10%;
+    margin: 0 auto;
+  }
+
+  .titulo, hr{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+      
+  }
+  hr{
+    margin-bottom: 1rem;
+  }
+    
+  }
