@@ -46,20 +46,25 @@ li {
 .left-content {
   text-align: right;
   padding-right: 50px;
+  width: fit-content;
 }
 .left-content p {
   line-height: 1.5rem;
+  
 }
 .left-images img {
   padding: 0.1rem;
+  max-height: 25px;
+  
 }
 .left-images a img:hover {
   transform: translateY(-3px);
   transition: all 0.4s;
+  
 }
 #line{
-  height: 25px;
-  max-width: 100px;
+  max-width: 100%;
+  
 }
 
 .principal h1 {
