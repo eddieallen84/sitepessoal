@@ -12,7 +12,8 @@ body {
   padding: 1rem 2rem 2rem 1rem;
   display: flex;
   justify-content: center;
-  background-color: #111;
+  background-color: #222;
+ 
 
 }
 
@@ -37,11 +38,12 @@ li {
 .principal {
   color: white;
   padding-top: 3rem;
-  background-color: #111;
+  background-color: #222;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 3rem;
+  position: relative;
 }
 .left-content {
   text-align: right;
