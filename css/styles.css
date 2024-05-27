@@ -8,13 +8,11 @@ body {
   font-size: 1rem;
 }
 
-.menu {
+.menu > div {
   padding: 1rem 2rem 2rem 1rem;
   display: flex;
   justify-content: center;
   background-color: #222;
- 
-
 }
 
 .menu a {
@@ -43,7 +41,6 @@ li {
   justify-content: center;
   align-items: center;
   padding-bottom: 3rem;
-  position: relative;
 }
 .left-content {
   text-align: right;
@@ -52,21 +49,17 @@ li {
 }
 .left-content p {
   line-height: 1.5rem;
-  
 }
 .left-images img {
   padding: 0.1rem;
   max-height: 25px;
-  
 }
 .left-images a img:hover {
   transform: translateY(-3px);
   transition: all 0.4s;
-  
 }
-#line{
+#line {
   max-width: 100%;
-  
 }
 
 .principal h1 {
@@ -74,7 +67,7 @@ li {
   font-size: 3.7rem;
 }
 .principal span {
-  color:rgb(255, 117, 24);
+  color: rgb(255, 117, 24);
 }
 
 .images img:first-child {
@@ -102,25 +95,22 @@ hr {
   border: 2px solid orangered;
   margin-top: 0.2rem;
   border-radius: 2px;
-  
 }
-.titulo{
+.titulo {
   padding-bottom: 0.5rem;
   width: fit-content;
 }
-.education{
+.education {
   background-color: #111;
-
-}.content span{
-  color: orangered; 
-
 }
-
+.content span {
+  color: orangered;
+}
 
 /* MEDIA QUERRY */
 
 @media (max-width: 800px) {
-   .principal {
+  .principal {
     display: flex;
     flex-direction: column-reverse;
     margin: 0 auto;
@@ -148,19 +138,18 @@ hr {
   .images img:last-child {
     max-height: 350px;
   }
-  .content{
+  .content {
     padding: 5% 10%;
     margin: 0 auto;
   }
 
-  .titulo, hr{
+  .titulo,
+  hr {
     text-align: center;
     margin: 0 auto;
     padding: 0;
-      
   }
-  hr{
+  hr {
     margin-bottom: 1rem;
   }
-    
-  }
+}
