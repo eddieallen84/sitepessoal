@@ -9,7 +9,7 @@ body {
 }
 
 .menu > div {
-  padding: 1rem 2rem 2rem 1rem;
+  padding: 1.5rem 2rem 2rem 1rem;
   display: flex;
   justify-content: center;
   background-color: #222;
@@ -21,9 +21,9 @@ body {
 }
 
 .menu a:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
   color: white;
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 .links > ul,
 li {
@@ -56,7 +56,7 @@ li {
 }
 .left-images a img:hover {
   transform: translateY(-3px);
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 #line {
   max-width: 100%;
